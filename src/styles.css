@@ -1,0 +1,440 @@
+/* Aulas Particulares de Surf — folha de estilos (V3)
+   Direção: marca esportiva premium / coaching individual.
+   Predominantemente branco/off-white e grafite; oceano estratégico
+   em títulos, números e blocos selecionados; areia só como detalhe. */
+
+:root {
+  --color-bg: #f8f8f6;        /* fundo predominante */
+  --color-white: #ffffff;     /* blocos selecionados / contraste sutil */
+  --color-text: #171717;      /* texto principal (grafite) */
+  --color-primary: #163a43;   /* oceano — títulos, números, linhas, blocos */
+  --color-secondary: #58777b; /* secundária — apoio, linhas finas */
+  --color-accent: #d7b98e;    /* areia/dourado — detalhe discreto apenas */
+
+  --font-display: "Manrope", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --page-padding-block: 22mm;
+  --page-padding-inline: 20mm;
+
+  --hairline: 1px solid rgba(22, 58, 67, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #dcdcd8;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p, ul {
+  margin: 0;
+}
+
+.page {
+  width: var(--page-width);
+  min-height: var(--page-height);
+  max-width: 100%;
+  background: var(--color-bg);
+  border-left: 8px solid var(--color-primary);
+  padding: var(--page-padding-block) var(--page-padding-inline);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  break-after: page;
+}
+
+.page:last-of-type {
+  break-after: auto;
+}
+
+/* Cabeçalho discreto das páginas internas — nunca um título gigante */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.hairline {
+  border: none;
+  border-top: var(--hairline);
+  margin: 0;
+}
+
+.page-footer {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: var(--hairline);
+  display: flex;
+  justify-content: space-between;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  opacity: 0.4;
+}
+
+/* ---------- Página 1 — Capa ---------- */
+
+.page--cover {
+  justify-content: space-between;
+}
+
+.cover-eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.cover-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 30ch;
+}
+
+.cover-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.16;
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
+}
+
+.cover-support {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--color-text);
+  opacity: 0.72;
+  max-width: 46ch;
+}
+
+.cover-meta {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.cover-base {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cover-base hr {
+  border: none;
+  border-top: 2px solid var(--color-accent);
+  width: 48px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.pillar-strip {
+  display: flex;
+  gap: 0;
+}
+
+.pillar-strip span {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  opacity: 0.7;
+  padding: 0 18px;
+  border-left: 1px solid var(--color-accent);
+}
+
+.pillar-strip span:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+/* ---------- Página 2 — Como funciona ---------- */
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.step {
+  display: flex;
+  align-items: baseline;
+  gap: 28px;
+  padding-block: 22px;
+  border-bottom: var(--hairline);
+}
+
+.step:first-child {
+  padding-top: 0;
+}
+
+.step-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 1;
+  color: var(--color-primary);
+  opacity: 0.18;
+  width: 92px;
+  flex-shrink: 0;
+}
+
+.step-body h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 4px;
+  color: var(--color-primary);
+}
+
+.step-body p {
+  font-size: 13px;
+  color: var(--color-text);
+  opacity: 0.7;
+}
+
+.wave-divider {
+  width: 100%;
+  height: 18px;
+  margin: 28px 0;
+  stroke: var(--color-secondary);
+  fill: none;
+  stroke-width: 1.4;
+  opacity: 0.7;
+}
+
+.session-length {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--color-white);
+  border-left: 4px solid var(--color-primary);
+  padding: 20px 24px;
+}
+
+.session-length strong {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+.session-length span {
+  font-size: 13px;
+  color: var(--color-text);
+  opacity: 0.7;
+  max-width: 32ch;
+}
+
+/* ---------- Página 3 — Planos e valores ---------- */
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.plan-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-block: 30px;
+  border-bottom: var(--hairline);
+}
+
+.plan-row:first-child {
+  padding-top: 0;
+}
+
+.plan-info {
+  max-width: 34ch;
+}
+
+.plan-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.plan-benefit {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--color-text);
+  opacity: 0.72;
+}
+
+.plan-price-block {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.plan-price {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 34px;
+  color: var(--color-primary);
+  display: block;
+  line-height: 1.1;
+}
+
+.plan-per-lesson {
+  display: block;
+  font-size: 12px;
+  color: var(--color-secondary);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.plan-savings {
+  display: block;
+  font-size: 11px;
+  color: var(--color-text);
+  opacity: 0.55;
+  margin-top: 2px;
+}
+
+.plans-footnote {
+  margin-top: 22px;
+  font-size: 11px;
+  color: var(--color-text);
+  opacity: 0.55;
+  text-align: center;
+}
+
+/* ---------- Página 4 — Informações importantes ---------- */
+
+.info-clusters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px 40px;
+  margin-top: 30px;
+}
+
+.info-cluster {
+  padding-top: 18px;
+  border-top: var(--hairline);
+}
+
+.info-cluster h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.info-cluster p,
+.info-cluster li {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--color-text);
+  opacity: 0.75;
+}
+
+.info-cluster ul {
+  padding-left: 16px;
+}
+
+.info-cluster li::marker {
+  color: var(--color-accent);
+}
+
+/* ---------- Impressão / exportação PDF ---------- */
+
+@media print {
+  html, body {
+    background: none;
+  }
+
+  body {
+    display: block;
+    padding: 0;
+    gap: 0;
+  }
+
+  .page {
+    box-shadow: none;
+    width: auto;
+    min-height: auto;
+    height: 297mm;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
+
+/* ---------- Ajuste para telas estreitas (pré-visualização) ---------- */
+
+@media (max-width: 800px) {
+  .page {
+    width: 100%;
+    padding: 9vw 7vw;
+  }
+
+  .cover-title {
+    font-size: 9vw;
+  }
+
+  .step {
+    gap: 16px;
+  }
+
+  .step-number {
+    font-size: 40px;
+    width: 60px;
+  }
+
+  .plan-row {
+    flex-direction: column;
+  }
+
+  .plan-price-block {
+    text-align: left;
+  }
+
+  .info-clusters {
+    grid-template-columns: 1fr;
+  }
+
+  .pillar-strip {
+    flex-wrap: wrap;
+  }
+}

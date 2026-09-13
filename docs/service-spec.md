@@ -39,7 +39,7 @@ Validade: 90 dias
 
 ## Equipamento
 
-Prancha própria do aluno.
+Equipamento próprio do aluno: prancha, leash, quilhas, parafina e lycra.
 
 ## Dias
 
@@ -68,5 +68,5 @@ Pacotes pagos integralmente de forma antecipada.
 ## Pilares
 
 Segurança
-Técnica
+Aprendizado
 Evolução

@@ -166,11 +166,11 @@ Também pode ser realizada uma rápida verificação visual do equipamento antes
 
 # 5. Equipamento
 
-Neste momento, o serviço é direcionado ao aluno que possui sua própria prancha.
+Neste momento, o serviço é direcionado ao aluno que possui equipamento próprio.
 
 Deixar claro de maneira discreta:
 
-**Prancha utilizada: equipamento próprio do aluno.**
+**Equipamento utilizado: prancha, leash, quilhas, parafina e lycra próprios do aluno.**
 
 Evitar fazer isso parecer uma limitação do serviço.
 
@@ -304,16 +304,16 @@ Caso aulas precisem ser adiadas por decisão do professor devido às condições
 
 Utilize como conceito visual ou seção do documento:
 
-**Segurança — Técnica — Evolução**
+**Segurança — Aprendizado — Evolução**
 
 Segurança:
-prática adequada ao nível do aluno e às condições do mar.
+leitura das condições do mar e acompanhamento próximo em cada sessão.
 
-Técnica:
-orientação individual e correções durante toda a sessão.
+Aprendizado:
+orientação clara na areia e na água, no ritmo e no nível de cada aluno.
 
 Evolução:
-aulas conectadas entre si, com objetivos progressivos e feedback.
+cada aula é uma oportunidade de evoluir com confiança — e aproveitar o processo, sem cobrança por performance.
 
 ---
 
@@ -351,13 +351,13 @@ Título principal:
 
 **Aulas Particulares de Surf**
 
-Subtítulo relacionado a acompanhamento individual, segurança, técnica e evolução.
+Subtítulo relacionado a acompanhamento individual, segurança, aprendizado e evolução.
 
 Pequena apresentação da proposta.
 
 Destacar:
 
-**Segurança • Técnica • Evolução**
+**Segurança • Aprendizado • Evolução**
 
 ---
 
