@@ -170,7 +170,7 @@ Neste momento, o serviço é direcionado ao aluno que possui equipamento própri
 
 Deixar claro de maneira discreta:
 
-**Equipamento utilizado: prancha, leash, quilhas, parafina e lycra próprios do aluno.**
+**Para as aulas, o aluno utiliza sua prancha e seus próprios equipamentos de surf.**
 
 Evitar fazer isso parecer uma limitação do serviço.
 

@@ -4,6 +4,10 @@
 
 Aulas Particulares de Surf
 
+## Professor
+
+André Osowiec
+
 ## Formato
 
 - Individual
