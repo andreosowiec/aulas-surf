@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Build / cache
+.cache/
+.tmp/
+
+# Saídas geradas
+dist/
+
+# Arquivos de navegador / Playwright
+playwright-report/
+test-results/
